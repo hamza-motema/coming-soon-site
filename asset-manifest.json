@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/coming-soon-site/static/css/main.6f620360.chunk.css",
+    "main.js": "/coming-soon-site/static/js/main.912b0a10.chunk.js",
+    "main.js.map": "/coming-soon-site/static/js/main.912b0a10.chunk.js.map",
+    "runtime-main.js": "/coming-soon-site/static/js/runtime-main.b5dd7799.js",
+    "runtime-main.js.map": "/coming-soon-site/static/js/runtime-main.b5dd7799.js.map",
+    "static/js/2.b8a410ab.chunk.js": "/coming-soon-site/static/js/2.b8a410ab.chunk.js",
+    "static/js/2.b8a410ab.chunk.js.map": "/coming-soon-site/static/js/2.b8a410ab.chunk.js.map",
+    "static/js/3.8a6d506b.chunk.js": "/coming-soon-site/static/js/3.8a6d506b.chunk.js",
+    "static/js/3.8a6d506b.chunk.js.map": "/coming-soon-site/static/js/3.8a6d506b.chunk.js.map",
+    "index.html": "/coming-soon-site/index.html",
+    "static/css/main.6f620360.chunk.css.map": "/coming-soon-site/static/css/main.6f620360.chunk.css.map",
+    "static/js/2.b8a410ab.chunk.js.LICENSE.txt": "/coming-soon-site/static/js/2.b8a410ab.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/coming-soon-site/static/media/bg-pattern-footer.8d9d044c.svg",
+    "static/media/icon-arrow-down.9da72e8f.svg": "/coming-soon-site/static/media/icon-arrow-down.9da72e8f.svg",
+    "static/media/illustration-charts.d82774d5.svg": "/coming-soon-site/static/media/illustration-charts.d82774d5.svg",
+    "static/media/logo.2b9872ab.svg": "/coming-soon-site/static/media/logo.2b9872ab.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5dd7799.js",
+    "static/js/2.b8a410ab.chunk.js",
+    "static/css/main.6f620360.chunk.css",
+    "static/js/main.912b0a10.chunk.js"
+  ]
+}
