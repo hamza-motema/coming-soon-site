@@ -1,13 +1,315 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Rubik:wght@500&display=swap');
+
+h1, h2, h3, .body1, .body2 {
+  font-family: Kumbh Sans;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3{
+    font-weight: bold;
+}
+
+h1{
+  color: #333950;
+  font-size: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 64px;
+}
+
+h2{
+  color: #333950;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h3{
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.body1, .body2{
+  font-weight: normal;
+  line-height: 28px;
+  color: #747B95;
+}
+
+.body1{
+  font-size: 18px;
+  
+}
+
+.body2{
+  font-size: 16px;
+}
+
+button{
+  border: none;
+  background: #fff;
+  border-radius: 28px;
+  height: 56px;
+  width: 171px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0px;
+}
+
+.button1{
+  background: #5175FF;
+}
+.button1 > .body2 {
+  color: #fff;
+  text-decoration: none;
+}
+.button1:hover{
+  background: #829CFF;
+}
+
+.button2{
+  background: rgba(81,117,255,0.15);
+  mix-blend-mode: normal;
+
+}
+.button2 > .body2, button > .body2 {
+  color: #829CFF;
+  text-decoration: none;
+}
+
+.button2:hover{
+  background: rgba(81,117,255,0.25);
+  mix-blend-mode: normal;
+}
+
+.flex1, .flex2, .flex3{
+  display: flex;
+}
+.column{
+  flex-direction: column;
+}
+.spaceBetween{
+  justify-content: space-between;
+}
+
+.alignItems{
+  align-items: center;
+}
+
+.spaceAround{
+  justify-content: space-around;
+}
+
+.flexCenter{
+  justify-content: center;
+}
+
+.spaceEvenly{
+  justify-content: space-evenly;
+}
+
+.frame1, .frame3{
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 50px;
+}
+.frame2, .frame4{
+  justify-content: flex-end;
+}
+.frame1, .frame2, .frame3, .frame4{
+  width: 50%;
+  display: flex;
+}
+
+.center{
+  text-align: center;
+}
+
+.padding{
+  padding: 20px 7% 0px 7%;
+}
+.marginTop{
+  margin-top: 20px;
+}
+
+.boxShadow{
+  box-shadow: 0px 25px 25px -10px rgba(63, 91, 194, 0.247159);
+}
+
+/******************************CARDS**********************************/
+
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+  border-radius: 13px;
+  height: 508px;
+  width: 350px;
+  border-radius: 13px;
+  margin: 20px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card > button {
+  margin: auto;
+  margin-top: 50px;
+}
+.bg-blue{
+  background: #5175FF;
+  color: #FFFFFF !important;
+}
+.bg-blue > .container > div > h1, .bg-blue > .container > div > h2, .bg-blue > .container > div > p{
+  color: #FFFFFF;
+}
+
+.bg-black{
+  background: #25293A;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-position: center center;
+}
+
+select
+{
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  z-index: 1;
+  outline: none;
+}
+
+select, input[type=text] {
+    width: 100%;
+      margin: 20px 0;  
+      border: none;
+        height: 28px;
+  font-family: Kumbh Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+ }
+select {
+  padding: 0px 20px;
+  border-bottom: 1px solid #747B95;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #747B95;
+  color: #747B95;
+  opacity: 0.5;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+/******************************DATES**********************************/
+.date-section{
+  height: 100%;
+  width: 448px;
+}
+
+.date{
+  padding: 10px 20px 10px 20px;
+  border-radius: 13px;
+  margin-right: 20px;
+}
+
+.date > h1, .date > p {
+  margin: 0;
+  text-align: center;
+}
+
+.p-comming{
+  color: #5175FF;;
+}
+
+  main {
+
+    margin: auto;
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+
+    z-index: 2;
+  }
+footer {
+background-color: #25293a;
+background-image: url('./assets/home/bg-pattern-footer.svg');
+background-repeat: repeat;
+background-size: cover;
+position: absolute;
+top: 970px;
+width: 100%;
+align-content: center;
+padding-top: 250px;
+background-position: center; 
+padding-bottom: 40px;
+z-index: -1;
+color: white;
+}
+
+.footer-btn{
+  margin-left: auto;
+
+}
+
+.counter{
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/***********************************************SIGNUP*************************************************/
+
+.card2{
+
+  padding: 50px;
+  width: 445px;
+  height: 508px;
+  left: 830px;
+  top: 237px;
+  background: #FFFFFF;
+  box-shadow: 0px 50px 50px -25px rgba(75, 92, 154, 0.247159);
+  border-radius: 13px;
+
+}
+
+.singup-btn{
+  width:100%;
+}
+
+form > .button1 {
+  margin-top: 20%;
+}
+
+.singup-bg{
+  background-color: #25293A;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  z-index: -1;
+  height: 100%;
+  background-color: #25293a;
+  background-image: url('./assets/home/bg-pattern-footer.svg');
+  background-repeat: repeat;
+  background-size: cover;
+  align-content: center;
+  background-position: center; 
 }

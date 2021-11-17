@@ -1,0 +1,66 @@
+@media screen and (max-width: 1100px) {
+    
+  .flex2{
+    flex-direction: column;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  .container > div:nth-child(1){
+    width: 50%;
+    text-align: left;
+  }
+  .container > div:nth-child(1) > h1{
+    text-align: left;
+  }
+    .container > div:nth-child(2){
+    width: 50%;
+    text-align: left;
+  }
+  .card{
+    width: auto;
+    height: 316px;
+    padding: 20px;
+  }
+  .card > button {
+    margin: 0px;
+    margin-bottom: 50px;
+  }
+  footer{
+    top: 1500px;
+    padding-top: 450px;
+  }
+  .footer-btn {
+      margin-left: auto;
+      margin: auto;
+      margin-top: 50px;
+  }
+  .date-section > h3 {
+    justify-content: center;
+  }
+  .counter{
+    flex-direction: column;
+  }
+
+  .date-section{
+    margin-top: 50px;
+  }
+
+  .singup-bg {
+    top: 900px;
+    width: 100%;
+  }
+  .frame3{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+
+  .singup-container, h1{
+    align-items: center;
+    text-align: center !important;
+  }
+}

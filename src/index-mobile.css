@@ -1,0 +1,67 @@
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 720px) {
+  h1, .body1{
+    text-align: center;
+  }
+  .button1 {
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  .flex1{
+    flex-direction: column-reverse;
+  }
+  .flex2{
+    align-items: center;
+  }
+  .frame1, .frame2{
+    width:100%;
+  }
+
+  .card {
+height: 508px;
+width: 350px;
+
+}
+.card > button {
+margin: auto;
+margin-top: 50px;
+}
+
+.container {
+display: block;
+}
+
+
+  .container > div:nth-child(1){
+    width: 100%;
+    text-align: center;
+  }
+  .container > div:nth-child(1) > h1{
+    text-align: center;
+  }
+    .container > div:nth-child(2){
+    width: 100%;
+    text-align: center;
+  }
+
+    footer{
+    top: 2500px;
+  }
+
+  .counter {
+ margin-top: 0px; 
+ padding: 0px;
+}
+
+.card2{
+  margin-top: 100px;
+  width: auto;
+}
+  .singup-bg {
+    top: 900px;
+    padding-bottom: 30%;
+  }
+
+}
