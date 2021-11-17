@@ -9,8 +9,8 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/singup" element={<Singup />} />
+          <Route path="coming-soon-site" element={<Home />} />
+          <Route path="coming-soon-site/singup" element={<Singup />} />
         </Routes>
       </BrowserRouter>
     </div>
